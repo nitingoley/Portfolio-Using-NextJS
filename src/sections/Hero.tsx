@@ -8,7 +8,7 @@ import SparkleIcon from "@/assets/icons/sparkle.svg";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-30 relative z-0  ">
+    <div className="py-32 md:py-30 relative z-0">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,transparent)]">
         <div
           className="absolute inset-0 -z-30 opacity-5"
@@ -16,10 +16,10 @@ export const HeroSection = () => {
             backgroundImage: `url(${grainImage.src})`,
           }}
         ></div>
-        <div className=" size-[620px] hero-ring"></div>
-        <div className=" size-[820px] hero-ring"></div>
-        <div className=" size-[1020px] hero-ring"></div>
-        <div className=" size-[1220px] hero-ring"></div>
+        <div className="size-[620px] hero-ring"></div>
+        <div className="size-[820px] hero-ring"></div>
+        <div className="size-[1020px] hero-ring"></div>
+        <div className="size-[1220px] hero-ring"></div>
 
         <HeroOrbit
           size={430}
@@ -44,7 +44,7 @@ export const HeroSection = () => {
         </HeroOrbit>
 
         <HeroOrbit size={520} rotation={-20} shouldOrbit orbitDuration="38s">
-          <div className="size-20 text-emerald-300/20 rounded-full " />
+          <div className="size-20 text-emerald-300/20 rounded-full" />
         </HeroOrbit>
 
         <HeroOrbit size={530} rotation={178} shouldOrbit orbitDuration="40s">
@@ -81,7 +81,7 @@ export const HeroSection = () => {
         </HeroOrbit>
 
         <HeroOrbit size={720} rotation={20} shouldOrbit orbitDuration="55s">
-          <div className="size-20 text-emerald-300/20 rounded-full " />
+          <div className="size-20 text-emerald-300/20 rounded-full" />
         </HeroOrbit>
 
         <HeroOrbit
@@ -100,10 +100,10 @@ export const HeroSection = () => {
           <Image
             src={memojiImage}
             className="size-[100px]"
-            alt="Person peeking from behind laptop"
+            alt="Person peeking from behind a laptop"
           />
           <div className="bg-gray-900 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
-            <div className="bg-green-500 size-2.5 rounded-full relative ">
+            <div className="bg-green-500 size-2.5 rounded-full relative">
               <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
             </div>
             <div className="text-sm font-medium">
@@ -113,10 +113,10 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Building Exceptional User Experciences
+            Building Exceptional User Experiences
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            I specialize in transforming desgins into functional,
+            I specialize in transforming designs into functional,
             high-performing web applications. Let's discuss your next project.
           </p>
         </div>
