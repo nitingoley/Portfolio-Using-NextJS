@@ -7,43 +7,100 @@ import ArrowIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
+import EcommcreStore from "@/assets/images/work-e.png";
+import ChatApplication from "@/assets/images/work-c.png";
+import FitnessExercise from "@/assets/images/work-f.png";
+
+
+
+// const portfolioProjects = [
+//   {
+//     company: "Acme Corp",
+//     year: "2022",
+//     title: "Dark Saas Landing Page",
+//     results: [
+//       { title: "Enhanced user experience by 40%" },
+//       { title: "Improved site speed by 50%" },
+//       { title: "Increased mobile traffic by 35%" },
+//     ],
+//     link: "https://youtu.be/4k7IdSLxh6w",
+//     image: darkSaasLandingPage,
+//   },
+//   {
+//     company: "Innovative Co",
+//     year: "2021",
+//     title: "Light Saas Landing Page",
+//     results: [
+//       { title: "Boosted sales by 20%" },
+//       { title: "Expanded customer reach by 35%" },
+//       { title: "Increased brand awareness by 15%" },
+//     ],
+//     link: "https://youtu.be/7hi5zwO75yc",
+//     image: lightSaasLandingPage,
+//   },
+//   {
+//     company: "Quantum Dynamics",
+//     year: "2023",
+//     title: "AI Startup Landing Page",
+//     results: [
+//       { title: "Enhanced user experience by 40%" },
+//       { title: "Improved site speed by 50%" },
+//       { title: "Increased mobile traffic by 35%" },
+//     ],
+//     link: "https://youtu.be/Z7I5uSRHMHg",
+//     image: aiStartupLandingPage,
+//   },
+// ];
+
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "E-Commerce Project",
+    year: "2024",
+    title: "Full-Stack E-Commerce Website",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Integrated MongoDB & Redis for scalability" },
+      { title: "Enabled Stripe payment processing" },
+      { title: "Developed secure authentication system with JWT" },
+      { title: "Built product & category management system" },
+      { title: "Implemented shopping cart & checkout features" },
+      { title: "Designed with Tailwind CSS for responsiveness" },
+      { title: "Developed admin dashboard with sales analytics" },
+      { title: "Implemented coupon code system" },
+      { title: "Optimized with Redis caching for performance" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://e-commerce-8438.onrender.com/",
+    image: EcommcreStore,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Chat Application Project",
+    year: "2024",
+    title: "Real-Time Chat Application",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Built using MERN stack with Socket.io" },
+      { title: "Integrated real-time messaging functionality" },
+      { title: "Implemented user authentication & authorization with JWT" },
+      { title: "Developed online user status feature" },
+      { title: "Used Zustand for global state management" },
+      { title: "Deployed the app for free using best practices" },
+      { title: "Handled errors both on the server and client side" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://https://snappy-real-time-chat-1.onrender.com/",
+    image: ChatApplication,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Fitness Tracker App",
+    year: "2024",
+    title: "Fitness Tracking Exercise Application",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Built frontend using Tailwind CSS for sleek design" },
+      { title: "Integrated third-party API (RapidAPI) for exercise data" },
+      { title: "Enabled users to track their fitness exercises" },
+      { title: "Optimized for mobile and desktop use" },
+      { title: "Added user-friendly interface for managing exercises" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://fitness-gym-exercise.vercel.app/",
+    image: FitnessExercise,
   },
 ];
 
