@@ -52,7 +52,7 @@ export const TestimonialsSection = () => {
         <div className="mt-16 flex justify-center ">
           <div className="flex flex-wrap justify-center gap-8 ">
             {testimonials.map((testimonial) => (
-              <Card key={testimonial.name} className="max-w-xs">
+              <Card key={testimonial.name} className="max-w-xs md:max-w-md p-6 md:p-8">
                 <div className="flex items-center gap-4">
                   <div className="size-14 bg-gray-700 flex items-center justify-center rounded-full">
                     <Image src={testimonial.avatar} alt={testimonial.name} className="max-h-full md:p-8 md:max-w-md" />

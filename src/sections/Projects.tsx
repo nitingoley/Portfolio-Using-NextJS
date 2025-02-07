@@ -6,6 +6,7 @@ import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
+import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
@@ -51,7 +52,6 @@ export const ProjectsSection = () => {
     <section className="pb-16 lg:py-24">
       <div className="container">
         <div className="flex justify-center  ">
-     
           <p className="uppercase text-2xl font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text text-center mb-3">
             Real-World Results
           </p>
@@ -63,11 +63,13 @@ export const ProjectsSection = () => {
           See how I transformed concept into enagaging digital experience.
         </p>
         <div className="flex md:mt-20 flex-col mt-10 gap-20">
-          {portfolioProjects.map((project) => (
-            <div
+          {portfolioProjects.map((project, projectIndex) => (
+            <Card
               key={project.title}
-              className="bg-gray-800 rounded-3xl z-0 after:z-10 overflow-hidden relative after:content-[''] after:absolute after:inset-0 
-              after:outline after:-outline-offset-2 md:pt-12 md:px-10 lg:pt-16 lg:px-20 after:rounded-3xl after:outline-white/20 px-8 pt-8 after:pointer-events-none"
+              className="  md:pt-12 md:px-10 lg:pt-16 lg:px-20 px-8 pt-8  sticky"
+              style={{
+                top: `calc(64px + ${projectIndex * 40}px`
+              }}
             >
               <div
                 className="absolute inset-0 -z-10 opacity-5"
@@ -93,7 +95,10 @@ export const ProjectsSection = () => {
                   <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
                     {project.results.map((result) => (
-                      <li key={result.title} className="flex gap-2 text-sm md:text-base text-white/50">
+                      <li
+                        key={result.title}
+                        className="flex gap-2 text-sm md:text-base text-white/50"
+                      >
                         <CheckIcon className="size-5 md:size-6" />
                         <span>{result.title}</span>
                       </li>
@@ -111,12 +116,11 @@ export const ProjectsSection = () => {
                     src={project.image}
                     alt={project.title}
                     className="mt-8 -mb-4 md:-mb-0  
-                     lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none
-                    "
+                     lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none"
                   />
                 </div>
               </div>
-            </div>
+            </Card>
           ))}
         </div>
       </div>
