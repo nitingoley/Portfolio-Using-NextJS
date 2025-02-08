@@ -147,7 +147,7 @@ export const HeroSection = () => {
 
           {/* Download Resume button with changes */}
           <a
-            href="/Nitin.pdf"  // Direct link to the file in the public folder
+            href="/Nitin.Goley.pdf"  // Direct link to the file in the public folder
             download="Nitin_Resume.pdf"  // File will be downloaded as this name
             className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl hover:bg-gray-200 focus:outline-none"
             style={{ position: "relative", zIndex: 10 }}  // Ensure button is clickable
