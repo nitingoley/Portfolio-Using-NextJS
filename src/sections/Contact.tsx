@@ -19,9 +19,8 @@ export const ContactSection = () => {
               </p>
             </div>
             <div>
-              {/* Use mailto link to open user's email client */}
               <a
-                href="mailto:nitingoley42@gmail.com"  // Replace with your email
+                href="mailto:nitingoley42@gmail.com"  
                 className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900"
               >
                 <span className="font-semibold">Contact Me</span>

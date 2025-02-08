@@ -1,16 +1,15 @@
 export const Footer = () => {
   return (
-    <footer className="relative -z-10 overflow-x-clip">
+    <footer className="relative">
+ 
       <div
         className="absolute h-[400px] w-[1600px] bottom-0 left-1/2 -translate-x-1/2 bg-emerald-300/30
-      [mask-image:radial-gradient(50%_50%_at_bottom_center,black,transparent)]
-      -z-10"
+        [mask-image:radial-gradient(50%_50%_at_bottom_center,black,transparent)] -z-10"
       ></div>
-      <div className="container">
+      <div className="container relative z-20"> {/* Added z-20 to ensure content is above background */}
         <div className="border-t border-white/15 py-6 text-sm flex md:flex-row md:justify-between flex-col items-center gap-8">
           <div className="text-white/40">&copy; 2025. All rights reserved.</div>
           <nav className="flex flex-col items-center md:flex-row gap-8">
-            {/* GitHub Link */}
             <a
               href="https://github.com/nitingoley"
               className="inline-flex items-center gap-1.5 cursor-pointer text-white hover:text-emerald-400 transition-colors"
@@ -23,9 +22,8 @@ export const Footer = () => {
               </svg>
             </a>
 
-            {/* LinkedIn Link */}
             <a
-              href="https://linkedin.com/in/nitingoley42"
+              href="https://linkedin.com/in/nitingoley"
               className="inline-flex items-center gap-1.5 cursor-pointer text-white hover:text-emerald-400 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
@@ -36,9 +34,8 @@ export const Footer = () => {
               </svg>
             </a>
 
-            {/* Instagram Link */}
             <a
-              href="https://instagram.com/your_instagram"
+              href="https://instagram.com/nitin_goley"
               className="inline-flex items-center gap-1.5 cursor-pointer text-white hover:text-emerald-400 transition-colors"
               target="_blank"
               rel="noopener noreferrer"

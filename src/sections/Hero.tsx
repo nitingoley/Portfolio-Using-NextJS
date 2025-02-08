@@ -32,6 +32,85 @@ export const HeroSection = () => {
           <SparkleIcon className="size-12 text-emerald-300/20" />
         </HeroOrbit>
 
+
+
+        <HeroOrbit
+          size={430}
+          rotation={-15}
+          shouldOrbit
+          orbitDuration="30s"
+          shouldSpin
+          spinDuration="3s"
+        >
+          <SparkleIcon className="size-12 text-emerald-300/20" />
+        </HeroOrbit>
+
+
+
+        <HeroOrbit
+          size={430}
+          rotation={-15}
+          shouldOrbit
+          orbitDuration="30s"
+          shouldSpin
+          spinDuration="3s"
+        >
+          <SparkleIcon className="size-12 text-emerald-300/20" />
+        </HeroOrbit>
+
+
+
+        <HeroOrbit
+          size={530}
+          rotation={60}
+          shouldOrbit
+          orbitDuration="30s"
+          shouldSpin
+          spinDuration="3s"
+        >
+          <SparkleIcon className="size-12 text-emerald-300/20" />
+        </HeroOrbit>
+
+
+
+        <HeroOrbit
+          size={560}
+          rotation={90}
+          shouldOrbit
+          orbitDuration="30s"
+          shouldSpin
+          spinDuration="3s"
+        >
+          <SparkleIcon className="size-12 text-emerald-300/20" />
+        </HeroOrbit>
+
+
+
+
+        <HeroOrbit
+          size={650}
+          rotation={196}
+          shouldOrbit
+          orbitDuration="30s"
+          shouldSpin
+          spinDuration="3s"
+        >
+          <SparkleIcon className="size-12 text-emerald-300/20" />
+        </HeroOrbit>
+
+
+
+
+        <HeroOrbit
+          size={880}
+          rotation={-5}
+          shouldOrbit
+          orbitDuration="30s"
+          shouldSpin
+          spinDuration="3s"
+        >
+          <SparkleIcon className="size-12 text-emerald-300/20" />
+        </HeroOrbit>
         {/* Other HeroOrbit components... */}
       </div>
 
